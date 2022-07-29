@@ -1,0 +1,269 @@
+body {
+    background-color: lightgray;
+  font-family: cursive;
+  width: 80%;
+  margin: 0 auto;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+  }
+ 
+  
+.navbar{
+   width: 100%;
+   height: 80px;
+   border-bottom: 1px solid orange;
+   background-color: white;
+ 
+}
+ .logo{
+   font-size: 40px;
+   color: orange;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0 auto;
+   padding-left: 20px;
+   float: left;
+   letter-spacing: 4px;
+}
+.nav-bar ul{
+  float: right;
+  list-style: none;
+  padding-top: 30px;
+  margin: 0;
+
+  
+}
+.nav-bar ul li{
+ display: inline;
+ text-align: center;
+ padding-right: 40px;
+
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  color: rgb(97, 29, 4);
+  text-transform: uppercase;
+  font-weight: 600;
+  
+}
+.nav-bar ul li a:hover{
+  color:orange;
+}
+@media screen and (min-width: 480px ){
+  .navbar{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid orange;
+    background-color: white;
+  
+ }
+  .logo{
+    font-size: 30px;
+    
+ }
+ .nav-bar ul{
+ 
+   padding-top: 20px;
+   margin: 0;
+ 
+   
+ }
+ .nav-bar ul li{
+  display: inline;
+  text-align: center;
+  padding-right: 30px;
+ 
+ }
+ .nav-bar ul li a{
+   text-decoration: none;
+   color: rgb(97, 29, 4);
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 15px;
+   
+ }
+    
+}
+.hero{
+  min-height: 80vh;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  
+}
+
+.content{
+  margin: auto;
+  position: relative;
+  top:100px;
+  left:50px;
+  background-color: lightgray;
+  width:50%;
+  border: 1px solid orange;
+  margin-bottom: 10px;
+  
+}
+.content h1{
+  font-size: 50px;
+  color:rgb(17, 1, 1);
+  font-family: cursive;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 50px;
+  
+
+}
+.content h1 span{
+  color: orange;
+}
+.content h1 span:hover{
+  color:blueviolet;
+}
+.content p{
+  color: rgb(17, 1, 1);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: cursive;
+  
+}
+.btn{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ .btn button{
+  background-color: orange;
+  width: 150px;
+  padding: 3px; 
+  height:40px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.btn button:hover{
+  background-color:blueviolet;
+}
+.btn button a{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  font-weight:200;
+}
+
+#features{
+  text-align: center;
+  font-weight: 300;
+  padding-top:50px;
+  height: 70vh;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+#features h2{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+#features .verse{
+  padding-bottom: 40px;
+}
+#features .verse h3{
+  text-transform: capitalize;
+}
+#features .verse p{
+  padding-top: 10px;
+}
+.center{
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.center h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  color: orange;
+}
+iframe{
+ text-align: center;
+ margin: 0 auto;
+ margin-left: 100px;
+}
+
+
+
+
+.form{
+  
+  margin-right: 50px;
+  background-color: orange;
+  width: 100%;
+  
+
+}
+.form h2{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.form input{
+ padding-left: 20px;
+ display:flex;
+ background-color: whitesmoke;
+ margin: 0 auto;
+ width: 80%;
+}
+.form textarea{
+ padding-left: 20px;
+ display:flex;
+ background-color: whitesmoke;
+ margin: 0 auto;
+ width: 80%;
+}
+.form button{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: black;
+  
+}
+ #btn{
+  background-color: dark;
+  width:100px;
+  height: 40px;
+  display: flex;
+  text-align: center;
+ 
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}
+#btn a{
+  
+  color:orange;
+  text-decoration: none;
+  margin: auto;
+}
+ 
+footer{
+  height: 20vh;
+  background-color: rgb(29, 27, 27);
+}
+footer h2{
+  margin:  auto;
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+ padding-top: 30px;
+}

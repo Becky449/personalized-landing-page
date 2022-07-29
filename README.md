@@ -1,1 +1,1 @@
-# personalized-landing-page
+# landing-page
